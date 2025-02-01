@@ -1,0 +1,1 @@
+This is where you will put all of your configs. Make sure to replicate how I did mine, and put in your default.nix to ensure that all files in folder are in home-manager.

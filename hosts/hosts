@@ -1,0 +1,1 @@
+This is where your hardware config goes, as well as your default.nix (the main setup for services and drivers). This is the guts of your machine. The things that modules build upon. Be careful and exacting here.

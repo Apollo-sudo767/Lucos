@@ -1,0 +1,1 @@
+This is where all of your aformentioned configs go. Put default.nix in here, and your hardware-configuration.nix. This is where this specific machine rests. Should you ever use more than one computer, you can have two configs due to the modularity of the hosts.

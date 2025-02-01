@@ -1,0 +1,1 @@
+This is where all of your modules go. Modules are where you put very important software in, like steam, window managers, git, and any other software that needs strong permissions (living out of user-space (Access to read and write files)). Put any software that is not super important under home-manager control (in the home directory (../home)).
