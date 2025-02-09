@@ -15,10 +15,7 @@
     pulsemixer
     # images
     imv
-    # Discord Alternative
-    vesktop
-    #PrismLauncher
-    prismlauncher
+    
   ];
 
   programs = {
@@ -28,7 +25,7 @@
       scripts = [pkgs.mpvScripts.mpris];
     };
 
-    obs-studio.enable = true;
+    
     
       
   };

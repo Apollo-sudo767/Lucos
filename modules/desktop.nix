@@ -103,7 +103,7 @@
 
   # System packages
   environment.systemPackages = with pkgs; [
-    vim
+    #vim
     wget
     curl
     git
@@ -140,12 +140,12 @@
     mesa
     neovim
     protontricks
-    libreoffice-qt6-fresh
+    #libreoffice-qt6-fresh
     vlc
-    thunderbird
-    ncspot
-    spotify
-    waypipe
+    #thunderbird
+    #ncspot
+    #spotify
+    #waypipe
     
     # Drivers
     hplip

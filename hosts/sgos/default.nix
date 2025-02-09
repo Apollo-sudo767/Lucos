@@ -94,7 +94,7 @@
         layout = "us";
       };
       excludePackages = [ pkgs.xterm ];
-      videoDrivers = ["nvidia"];
+      videoDrivers = ["intel"];
       displayManager = {
         gdm.enable = true;
       };
@@ -104,6 +104,7 @@
     #   cosmic-greeter.enable = true;
     # };
     dbus.enable = true;
+
     gvfs.enable = true;
     tumbler.enable = true;
   };
@@ -130,7 +131,7 @@
         libvdpau-va-gl
         vulkan-loader
         vulkan-headers
-        nvidia-vaapi-driver
+        # nvidia-vaapi-driver
         mesa
         vulkan-tools
         vulkan-validation-layers
@@ -138,14 +139,8 @@
       ];
       extraPackages32 = with pkgs.pkgsi686Linux; [ libva ];
       # setLdLibraryPath = true;
-    };
-    nvidia = {
-      modesetting.enable = true;
-      open = false;
-      nvidiaSettings = true;
-      package = config.boot.kernelPackages.nvidiaPackages.beta;
-      forceFullCompositionPipeline = true;
-      powerManagement.enable = true;
+
+
     };
   };
 
